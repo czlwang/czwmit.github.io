@@ -1,13 +1,12 @@
 .ui#logo{
     padding: 15px;
-    color: gray;
-    //margin: 55px;
+    color: white;
     background-color:#34495e;
 }
 
 .ui#content{
   // padding should be the same as header height
-  padding: 55px;
+  padding-left: 210;
 }
 
 #title{
