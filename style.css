@@ -1,0 +1,15 @@
+.ui#logo{
+    padding: 15px;
+    color: white;
+    //margin: 55px;
+
+}
+
+.ui#content{
+  // padding should be the same as header height
+  padding: 55px;
+}
+
+#title{
+    margin-top:25px;
+}
