@@ -1,8 +1,8 @@
 .ui#logo{
     padding: 15px;
-    color: white;
+    color: gray;
     //margin: 55px;
-
+    background-color:#34495e;
 }
 
 .ui#content{
