@@ -1,0 +1,11 @@
+$(document).ready(function(){
+	$("#red").hide();
+	$("#red_btn").click(function(){
+		$("#blue").hide();
+		$("#red").show();
+	});
+	$("#blue_btn").click(function(){
+		$("#blue").show();
+		$("#red").hide();
+	});
+});

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- bokeh -->
+        <link
+            href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.0.min.css"
+            rel="stylesheet" type="text/css">
+        <link
+            href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.0.min.css"
+            rel="stylesheet" type="text/css">
+        <script type="application/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.0.min.js"></script> 
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.0.min.js"></script> 
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-compiler-0.12.0.min.js"></script> 
+        <script type="application/javascript">Bokeh.set_log_level('info'); Bokeh.custom = {};</script> 
+
+        <!-- semantic ui -->
+        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+        <script src="semantic/dist/semantic.min.js"></script>
+
+        <title>Home</title>
+
+        <!-- style -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+    <body>
+
+      <div class="ui visible sidebar inverted vertical menu">
+        <div id="logo" class="ui container">
+        <h2>MeHg Accumulation in Rice</h2>
+        </div>
+        <a class="item" href="index.html">
+          Home
+        </a>
+        <a class="item" href="about.html">
+          Background
+        </a>
+        <a class="item" href="about.html">
+          Mercury Biogeochemistry in Rice Paddies
+        </a>
+        <a class="item" href="about.html">
+          Model
+        </a>
+        <a class="item" href="about.html">
+          Economic Assesment
+        </a>
+      </div>
+
+    <!-- INSERT DIVS HERE -->
+    <div id="content" class="ui container">
+    <div class="ui one column centered grid">
+        <div class="row"><h1>Models</h1></div>
+        <div class="row">
+            <button class="ui button" id="red_btn">red</button>
+            <button class="ui button" id="blue_btn">blue</button>
+        </div>
+        <div class="row">
+        <div id="blue" class="bk-root">
+            <div class="plotdiv" id="223a1fbc-3796-48e7-9443-73c611ef6267"></div>
+        </div>
+
+        <div id="red" class="bk-root">
+            <div class="plotdiv" id="010bba8e-5391-47cb-939a-9164fd1d9f8f"></div>
+        </div>
+        </div>
+
+    </div>
+    </div>
+
+
+    <!-- javascript for maps -->
+    <script type="text/javascript" src="js/three_map1.js"> </script>
+    <script type="text/javascript" src="js/three_map2.js"> </script>
+    <script type="text/javascript" src="js/model.js"> </script>
+
+    </body>
+</html>
