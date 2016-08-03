@@ -1,11 +1,19 @@
 $(document).ready(function(){
-	$("#red").hide();
-	$("#red_btn").click(function(){
-		$("#blue").hide();
-		$("#red").show();
+	$("#three_map2").hide();
+	$("#three_map3").hide();
+	$("#1_btn").click(function(){
+		$("#three_map1").show();
+		$("#three_map2").hide();
+		$("#three_map3").hide();
 	});
-	$("#blue_btn").click(function(){
-		$("#blue").show();
-		$("#red").hide();
+	$("#2_btn").click(function(){
+		$("#three_map1").hide();
+		$("#three_map2").show();
+		$("#three_map3").hide();
+	});
+	$("#3_btn").click(function(){
+		$("#three_map1").hide();
+		$("#three_map2").hide();
+		$("#three_map3").show();
 	});
 });
