@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- bokeh -->
+        <link
+            href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.0.min.css"
+            rel="stylesheet" type="text/css">
+        <link
+            href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.0.min.css"
+            rel="stylesheet" type="text/css">
+        <script type="application/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.0.min.js"></script> 
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.0.min.js"></script> 
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-compiler-0.12.0.min.js"></script> 
+        <script type="application/javascript">Bokeh.set_log_level('info'); Bokeh.custom = {};</script> 
+
+        <!-- semantic ui -->
+        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+        <script src="semantic/dist/semantic.min.js"></script>
+
+        <title>Models</title>
+
+        <!-- style -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+    <body>
+
+      <div class="ui visible sidebar inverted vertical menu">
+        <div id="logo" class="ui container">
+        <h2>MeHg Accumulation in Rice</h2>
+        </div>
+        <a class="item" href="index.html">
+          Home
+        </a>
+        <a class="item" href="about.html">
+          Background
+        </a>
+        <a class="item" href="about.html">
+          Mercury Biogeochemistry in Rice Paddies
+        </a>
+        <a class="item" href="model.html">
+          Model
+        </a>
+        <a class="item" href="about.html">
+          Economic Assesment
+        </a>
+      </div>
+
+    <!-- INSERT DIVS HERE -->
+    <div id="content" class="ui container">
+    <div class="ui four column grid">
+
+        <div class="ui raised segment">
+        <div class="row">
+            <button class="ui button" id="1_btn">Present</button>
+            <button class="ui button" id="2_btn">MF</button>
+            <button class="ui button" id="3_btn">MS</button>
+            <button class="ui button" id="4_btn">Future</button>
+        </div>
+        
+        <div class="row">
+        <div  id = "maps">
+        <div id="three_map1" class="bk-root">
+            <div class="plotdiv" id="bc86015f-d260-4374-a868-42641234ca0d"></div>
+        </div>
+
+        <div id = "three_map2" class="bk-root">
+            <div class="plotdiv" id="1cffc3f1-ce2f-41e7-b50c-08a058ecd923"></div>
+        </div>
+
+        <div id="three_map3" class="bk-root">
+            <div class="plotdiv" id="7ae30e31-0006-4001-b5d6-aef7f7d6b281"></div>
+        </div>
+
+        <div id="three_map4" class="bk-root">
+            <div class="plotdiv" id="6a6db62d-2f61-4ae7-87d4-7b256c05b606"></div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="two column row">
+        <div class="column">
+        <h1 class = "title">Models</h1>
+        <hr>
+        </div>
+        </div>
+        <div class="column">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="column">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+
+    </div>
+    </div>
+
+
+    <!-- javascript for maps -->
+    <script type="text/javascript" src="horizontal/three_map1.js"> </script>
+    <script type="text/javascript" src="horizontal/three_map2.js"> </script>    
+    <script type="text/javascript" src="horizontal/three_map3.js"> </script>
+    <script type="text/javascript" src="horizontal/three_map4.js"> </script>
+    <script type="text/javascript" src="js/model.js"> </script>
+
+    </body>
+</html>
