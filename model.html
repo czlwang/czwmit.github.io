@@ -21,7 +21,7 @@
         <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
         <script src="semantic/dist/semantic.min.js"></script>
 
-        <title>Home</title>
+        <title>Models</title>
 
         <!-- style -->
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -52,28 +52,35 @@
 
     <!-- INSERT DIVS HERE -->
     <div id="content" class="ui container">
-    <div class="ui one column centered grid">
+    <div class="ui three column centered grid">
+        <div class="column">
         <div class="row"><h1>Models</h1></div>
-        <div class="row"><h2>Mouse over the provinces to see the exact values!</h2></div>
+        <hr>
         <div class="row">
-            <button class="ui button" id="1_btn">Future</button>
+            <button class="ui button" id="1_btn">Present</button>
             <button class="ui button" id="2_btn">MF</button>
             <button class="ui button" id="3_btn">MS</button>
+            <button class="ui button" id="4_btn">Future</button>
         </div>
-        <div class="row">
+        
+        <div id = "maps">
         <div id="three_map1" class="bk-root">
-            <div class="plotdiv" id="71fba7e2-271b-401d-9ddf-1c164d3e8622"></div>
+            <div class="plotdiv" id="db75935e-9d0d-40df-a8f4-898eebd7a65b"></div>
         </div>
 
         <div id = "three_map2" class="bk-root">
-            <div class="plotdiv" id="c134a620-db5f-4a54-88a7-faaf3fbf482f"></div>
+            <div class="plotdiv" id="8cec564e-82af-45b4-b8ec-6233fb2b963a"></div>
         </div>
 
         <div id="three_map3" class="bk-root">
-            <div class="plotdiv" id="f7d940bb-9c0d-4471-853e-d8d1a4d7e204"></div>
-        </div>
+            <div class="plotdiv" id="2f567607-de87-4a9b-b50c-393c445ba9aa"></div>
         </div>
 
+        <div id="three_map4" class="bk-root">
+            <div class="plotdiv" id="f54a4ba5-09c7-493e-ab6d-44bf32f4a205"></div>
+        </div>
+        </div>
+        </div>
     </div>
     </div>
 
@@ -82,6 +89,7 @@
     <script type="text/javascript" src="js/three_map1.js"> </script>
     <script type="text/javascript" src="js/three_map2.js"> </script>    
     <script type="text/javascript" src="js/three_map3.js"> </script>
+    <script type="text/javascript" src="js/three_map4.js"> </script>
     <script type="text/javascript" src="js/model.js"> </script>
 
     </body>
