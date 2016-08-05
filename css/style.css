@@ -6,7 +6,7 @@
 
 .ui#content{
   /*padding should be the same as header height*/
-  padding-left: 210px;
+  /*padding-left: 210px;*/
 }
 
 #title{
@@ -17,13 +17,9 @@
 	margin: 10px;
 }
 
-.container{
-	padding: 40px;
-	padding-left: 210;
-}
-
 .ui#nav{
-	margin-right: 10px;
+	/*margin-right: 10px;*/
+	margin:10px;
 
 }
 /*#maps{
