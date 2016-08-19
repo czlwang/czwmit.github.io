@@ -1,30 +1,30 @@
 $(document).ready(function(){
-	$("#three_map1").show();
-	$("#three_map2").hide();
-	$("#three_map3").hide();
-	$("#three_map4").hide();
+	$("#maps_present").show();
+	$("#maps_nac").hide();
+	$("#maps_mf").hide();
+	$("#maps_ms").hide();
 	$("#1_btn").click(function(){
-		$("#three_map1").show();
-		$("#three_map2").hide();
-		$("#three_map3").hide();
-		$("#three_map4").hide();
+		$("#maps_present").show();
+		$("#maps_nac").hide();
+		$("#maps_mf").hide();
+		$("#maps_ms").hide();
 	});
 	$("#2_btn").click(function(){
-		$("#three_map1").hide();
-		$("#three_map2").show();
-		$("#three_map3").hide();
-		$("#three_map4").hide();
+		$("#maps_present").hide();
+		$("#maps_nac").show();
+		$("#maps_mf").hide();
+		$("#maps_ms").hide();
 	});
 	$("#3_btn").click(function(){
-		$("#three_map1").hide();
-		$("#three_map2").hide();
-		$("#three_map3").show();
-		$("#three_map4").hide();
+		$("#maps_present").hide();
+		$("#maps_nac").hide();
+		$("#maps_mf").show();
+		$("#maps_ms").hide();
 	});
 	$("#4_btn").click(function(){
-		$("#three_map1").hide();
-		$("#three_map2").hide();
-		$("#three_map3").hide();
-		$("#three_map4").show();
+		$("#maps_present").hide();
+		$("#maps_nac").hide();
+		$("#maps_mf").hide();
+		$("#maps_ms").show();
 	});
 });

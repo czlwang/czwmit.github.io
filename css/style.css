@@ -27,3 +27,16 @@
 	border-radius: 25px;
 	width: 1040px;
 }*/
+
+body{
+	background-color: #ecf0f1;
+}
+
+.card-image{
+	max-height: 150px;
+}
+
+p{
+	text-align: left;
+	text-indent: 10px;
+}
